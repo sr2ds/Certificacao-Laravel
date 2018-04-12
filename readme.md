@@ -1,202 +1,202 @@
 Este repositório visa armazenar testes e documentações para servir de preparatório para a Certificação Laravel.
 
 ## PHP
-Version 7.1+
-Composer
-Autoloading Standards
- 
+Version 7.1+<br>
+Composer<br>
+Autoloading Standards<br>
+
 ## Architecture
-Request Lifecycle
-Service Container Binding and Resolution
-Service Providers
-Facades
-HTTP Verbs
- 
+Request Lifecycle<br>
+Service Container Binding and Resolution<br>
+Service Providers<br>
+Facades<br>
+HTTP Verbs<br>
+
 ## Routing
-Redirects
-Route Parameters
-Named Routes
-Route Groups
-Route Model Binding
-Rate Limiting
- 
+Redirects<br>
+Route Parameters<br>
+Named Routes<br>
+Route Groups<br>
+Route Model Binding<br>
+Rate Limiting<br>
+
 ## Middleware
-Defining / Registering Middleware
-Middleware Parameters
- 
+Defining / Registering Middleware<br>
+Middleware Parameters<br>
+
 ## Controllers
-Defining Controllers
-Controller Namespacing
-Single Action Controllers
-Middleware
-Resource Controllers
-Dependency Injection
-Route Caching
- 
+Defining Controllers<br>
+Controller Namespacing<br>
+Single Action Controllers<br>
+Middleware<br>
+Resource Controllers<br>
+Dependency Injection<br>
+Route Caching<br>
+
 ## Requests
-PSR-7 Requests
-Request Path and Method
-Retrieving Input
-Uploaded Files
-Proxy Configuration
- 
+PSR-7 Requests<br>
+Request Path and Method<br>
+Retrieving Input<br>
+Uploaded Files<br>
+Proxy Configuration<br>
+
 ## Responses
-Attaching Headers / Cookies
-Encryption
-Redirects
-Flash Data
-Response Types
-Response Macros
- 
+Attaching Headers / Cookies<br>
+Encryption<br>
+Redirects<br>
+Flash Data<br>
+Response Types<br>
+Response Macros<br>
+
 ## Views
-Creating Views
-Passing Data to Views
-View Composer
- 
+Creating Views<br>
+Passing Data to Views<br>
+View Composer<br>
+
 ## URL Generation
-Named Routes
-Controller Actions
-Default Values
- 
+Named Routes<br>
+Controller Actions<br>
+Default Values<br>
+
 ## Sessions
-Configuration
-Storing Data
-Retrieving Data
-Deleting Data
-Flash Data
-Custom Drivers
- 
- 
+Configuration<br>
+Storing Data<br>
+Retrieving Data<br>
+Deleting Data<br>
+Flash Data<br>
+Custom Drivers<br>
+ <br>
+
 ## Validation
-Form Requests
-Manually Creating Validators
-Error Messages
-Validation Rules
-Custom Rules
- 
+Form Requests<br>
+Manually Creating Validators<br>
+Error Messages<br>
+Validation Rules<br>
+Custom Rules<br>
+
 ## Logging
-Configuration
-Writing to Specific Channels
-Creating Custom Channels
- 
+Configuration<br>
+Writing to Specific Channels<br>
+Creating Custom Channels<br>
+
 ## Frontend
-Blade Templating
-Localization
-Asset Compilation
- 
+Blade Templating<br>
+Localization<br>
+Asset Compilation<br>
+
 ## Security
-Authentication
-Authorization
-Encryption / Hashing
-CSRF Protection
-XSS Protection
- 
+Authentication<br>
+Authorization<br>
+Encryption / Hashing<br>
+CSRF Protection<br>
+XSS Protection<br>
+
 ## Artisan Console
-Generating Commands
-Command I/O
-Registering Commands
-Executing Commands
- 
+Generating Commands<br>
+Command I/O<br>
+Registering Commands<br>
+Executing Commands<br>
+
 ## Websockets
-Broadcasting Events
-Receiving Events
-Broadcasting Channels
-Presence Channels
-Client Events
- 
+Broadcasting Events<br>
+Receiving Events<br>
+Broadcasting Channels<br>
+Presence Channels<br>
+Client Events<br>
+
 ## Caching
-Drivers / Configuration
-Storing Items
-Retrieving Items
-Cache Tags
-Creating Custom Drivers
- 
+Drivers / Configuration<br>
+Storing Items<br>
+Retrieving Items<br>
+Cache Tags<br>
+Creating Custom Drivers<br>
+
 ## Collections
-Creating / Extending Collections
-Collection Methods
-Higher-order Messages
- 
+Creating / Extending Collections<br>
+Collection Methods<br>
+Higher-order Messages<br>
+
 ## Events
-Registering Events / Listeners
-Queued Listeners
-Dispatching Events
-Subscribing to Events
- 
+Registering Events / Listeners<br>
+Queued Listeners<br>
+Dispatching Events<br>
+Subscribing to Events<br>
+
 ## File Storage
-Configuration / Drivers
-Storing / Retrieving Files
-Custom Filesystems
- 
+Configuration / Drivers<br>
+Storing / Retrieving Files<br>
+Custom Filesystems<br>
+
 ## Helper Methods
-Arrays / Objects
-Paths
-Strings
-URLs
-Misc
- 
+Arrays / Objects<br>
+Paths<br>
+Strings<br>
+URLs<br>
+Misc<br>
+
 ## Mail
-Drivers / Configuration
-Generating Mailables
-Writing Mail
-Sending Mail
-Markdown
-Local Development
- 
+Drivers / Configuration<br>
+Generating Mailables<br>
+Writing Mail<br>
+Sending Mail<br>
+Markdown<br>
+Local Development<br>
+
 ## Notifications
-Creating Notifications
-Sending Notifications
-Mail Notifications
-Markdown
-Database Notifications
-Broadcast Notifications
-SMS Notifications
-Slack Notifications
-Custom Channels
- 
+Creating Notifications<br>
+Sending Notifications<br>
+Mail Notifications<br>
+Markdown<br>
+Database Notifications<br>
+Broadcast Notifications<br>
+SMS Notifications<br>
+Slack Notifications<br>
+Custom Channels<br>
+
 ## Package Development
-Discovery
-Service Providers
-Resources
-Commands
-Assets
-Publishing File Groups
- 
+Discovery<br>
+Service Providers<br>
+Resources<br>
+Commands<br>
+Assets<br>
+Publishing File Groups<br>
+
 ## Queues
-Drivers / Configurations
-Creating / Dispatching Jobs
-Running Queue Workers
-Supervisor
-Handling Failed Jobs
- 
+Drivers / Configurations<br>
+Creating / Dispatching Jobs<br>
+Running Queue Workers<br>
+Supervisor<br>
+Handling Failed Jobs<br>
+
 ## Task Scheduling
-Scheduling Artisan Commands
-Scheduling Queue Jobs
-Scheduling Shell Commands
-Time Zones
-Preventing Task Overlaps
-Maintenance Mode
- 
+Scheduling Artisan Commands<br>
+Scheduling Queue Jobs<br>
+Scheduling Shell Commands<br>
+Time Zones<br>
+Preventing Task Overlaps<br>
+Maintenance Mode<br>
+
 ## Database
-Query Builder
-Pagination
-Migrations
-Seeding
- 
+Query Builder<br>
+Pagination<br>
+Migrations<br>
+Seeding<br>
+
 ## Eloquent ORM
-Conventions
-Relationships
-Eloquent Collections
-Mutators / Accessors
-API Resources
-Serialization
-Scopes
- 
+Conventions<br>
+Relationships<br>
+Eloquent Collections<br>
+Mutators / Accessors<br>
+API Resources<br>
+Serialization<br>
+Scopes<br>
+
 ## Testing
-Creating / Running Tests
-HTTP Tests
-Session / Authentication
-Testing File Uploads
-Available Assertions
-Browser Tests / Dusk
-Data Factories
-Fakes / Mocking
+Creating / Running Tests<br>
+HTTP Tests<br>
+Session / Authentication<br>
+Testing File Uploads<br>
+Available Assertions<br>
+Browser Tests / Dusk<br>
+Data Factories<br>
+Fakes / Mocking<br>
