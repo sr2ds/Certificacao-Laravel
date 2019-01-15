@@ -6,6 +6,9 @@ Provavelmente você terá dificuldade em seguir isso se não tiver o mínimo de 
 
 Se, assim como eu, sua intenção não é ter um Certificado Laravel mas sim ter mais conhecimento para desenvolver com mais qualidade e agilidade, esse repositório também servirá para você.
 
+Atenção! Isso está em construção ainda não vá com tanta sede ao pote. <br> 
+Coisas boas não são feitas do dia pra noite.
+
 ## PHP
 Version 7.1+<br>
 Composer<br>
@@ -18,7 +21,7 @@ Service Providers<br>
 Facades<br>
 HTTP Verbs<br>
 
-## Routing
+## [Routing](/Manual/Routing/readme.md)
 Redirects<br>
 Route Parameters<br>
 Named Routes<br>
