@@ -1,4 +1,10 @@
-Este repositório visa armazenar testes e documentações para servir de preparatório para a Certificação Laravel.
+Este repositório visa armazenar testes e documentações para servir de preparatório para a Certificação Laravel. <br>
+Para inscrever-se na certificação, acesse o link: https://certification.laravel.com/ <br>
+
+Abaixo os temas que devem ser estudados, cada tema terá um diretório com conteúdos e referências. <br>
+Provavelmente você terá dificuldade em seguir isso se não tiver o mínimo de experiência com algum Framework PHP. <br>
+
+Se, assim como eu, sua intenção não é ter um Certificado Laravel mas sim ter mais conhecimento para desenvolver com mais qualidade e agilidade, esse repositório também servirá para você.
 
 ## PHP
 Version 7.1+<br>
