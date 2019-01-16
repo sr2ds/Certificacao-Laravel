@@ -35,11 +35,37 @@ Por padrão o status code é 302, mas você pode passar outro no terceiro parame
 
 `Route::redirect('/daqui', '/pra-ca', 302);`
 
+## Route Parameters - Parâmetros de Rotas
+Você precisará passar parâmetros para o controlador em algum momento, para isso você fará algo assim:
+
+`Route::any(/clientes/{id}, 'clientesController@show); `
+
+Isso faz com que qualquer requisição para o `/clientes/` com um `id`, será recebido pelo controlador `clientesController` no método `show`. Para isso funcionar, o método `show` deve aguardar um parâmetro:
+
+`public function show($id) {}`
+
+Pode precisar de multiplos parãmetros em algum momento, o processo seguirá sem dificuldade:
+
+`Route::any(/clientes/{id}/pagamentos/{pagamento_id}, 'clientesController@show); `
+
+E no controlador:
+
+`public function show($id, $pagamento_id) {}`
+
+### Parâmetros Opcionais
+Para que o parâmetro seja opcional, você deve incluir um `?` a frente dele, veja:
+
+`Route::any(/clientes/{id?}, 'clientesController@show); `
+
+Não esqueça que para isso funcionar, o método do controlador tem que saber disso:
+
+`public function show($id = null) {}`
+
 ----
 to be continued ...
 
-## Route Parameters
 ## Named Routes
+
 ## Route Groups
 ## Route Model Binding
 ## Rate Limiting
