@@ -61,11 +61,37 @@ Não esqueça que para isso funcionar, o método do controlador tem que saber di
 
 `public function show($id = null) {}`
 
+## Named Routes - Rotas Nomeadas
+
+Nomear as rotas faz com que você possa referenciá-las de forma mais simples, por exemplo, ao invés de toda vez ter que escrever o caminho completo em um redirecionamento, poderá apenas usar: `return redirect()->route('profile');`
+
+Para usar este benefício, basta definir o nome na definição da rota:
+
+```
+Route::get('user/profile', 'UserProfileController@show')->name('profile');
+```
+
+Com isso, você pode usar os `helpers` especiais `route`e `url`. E no blade, por exemplo, construir links assim:
+
+```
+<a href="{{ url('user/profile', [1]) }}"> </a>
+
+<a href="{{ route('routeName', ['id' => 1]) }}"> </a>
+```
+
+Se precisar saber qual é o nome da rota atual, você pode fazer isto:
+```
+$route = Route::current();
+$name = $route->getName(); // Retorna o nome da Rota
+$actionName = $route->getActionName(); // Retorna o método do controlador
+```
+
 ----
 to be continued ...
-
-## Named Routes
 
 ## Route Groups
 ## Route Model Binding
 ## Rate Limiting
+## Extra
+
+Experimente rodar o comando `php artisan routes:list` para ver a lista de rotas que existem, assim como seus nomes, controladores e os verbos HTTP aceitos.
