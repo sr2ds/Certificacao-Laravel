@@ -86,10 +86,60 @@ $name = $route->getName(); // Retorna o nome da Rota
 $actionName = $route->getActionName(); // Retorna o método do controlador
 ```
 
+## Route Groups - Grupo de Rotas
+
+Você pode agrupar rotas para contextos específicos, por exemplo, determinadas rotas utilizarão determido middleware, sub-dominio, prefixo, etc. Exemplos:
+
+### Rotas com subdomínios personalizados
+
+```
+Route::domain('{account}.myapp.com')->group(function () {
+    Route::get('user/{id}', function ($account, $id) {
+        //
+    });
+});
+```
+
+### Grupo de rotas nomeadas
+
+```
+Route::name('admin.')->group(function () {
+    Route::get('users', 'usersController@index')->name('users');
+    // Isso gera a rota nomeada como admin.users
+});
+```
+
+### Rotas com o mesmo prefixo
+
+```
+Route::prefix('admin')->group(function () {
+    Route::get('users', 'usersController@index')->name('users');
+    Route::get('customers', 'customersController@index')->name('customers');
+    // Isso gera as rotas users e customers dentro do contexto do admin, ou seja: /admin/users
+});
+```
+
+### Combinando atributos para rotas
+
+Você pode definir multiplos atributos na mesma definição de rotas
+
+```
+Route::group([
+            'prefix'     => 'admin',
+            'middleware' => [
+                'auth',
+                'anotherMiddleware',
+                'yetAnotherMiddleware',
+            ],
+        ], function() {
+            
+           Route::get('dashboard', function() {} );
+ });
+```
+
 ----
 to be continued ...
 
-## Route Groups
 ## Route Model Binding
 ## Rate Limiting
 ## Extra
