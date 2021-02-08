@@ -9,12 +9,12 @@ Se, assim como eu, sua intenção não é ter um Certificado Laravel mas sim ter
 Atenção! Isso está em construção ainda não vá com tanta sede ao pote. <br> 
 Coisas boas não são feitas do dia pra noite.
 
-## PHP
+## [PHP](/Manual/PHP)
 Version 7.1+<br>
 Composer<br>
 Autoloading Standards<br>
 
-## Architecture
+## [Architecture](/Manual/Architecture)
 Request Lifecycle<br>
 Service Container Binding and Resolution<br>
 Service Providers<br>
@@ -29,11 +29,11 @@ Route Groups<br>
 Route Model Binding<br>
 Rate Limiting<br>
 
-## Middleware
+## [Middleware](/Manual/Middleware)
 Defining / Registering Middleware<br>
 Middleware Parameters<br>
 
-## Controllers
+## [Controllers](/Manual/Controllers)
 Defining Controllers<br>
 Controller Namespacing<br>
 Single Action Controllers<br>
@@ -42,14 +42,14 @@ Resource Controllers<br>
 Dependency Injection<br>
 Route Caching<br>
 
-## Requests
+## [Requests](/Manual/Requests)
 PSR-7 Requests<br>
 Request Path and Method<br>
 Retrieving Input<br>
 Uploaded Files<br>
 Proxy Configuration<br>
 
-## Responses
+## [Responses](/Manual/Responses)
 Attaching Headers / Cookies<br>
 Encryption<br>
 Redirects<br>
@@ -57,17 +57,17 @@ Flash Data<br>
 Response Types<br>
 Response Macros<br>
 
-## Views
+## [Views](/Manual/Views)
 Creating Views<br>
 Passing Data to Views<br>
 View Composer<br>
 
-## URL Generation
+## [URL Generation](/Manual/URL Generation)
 Named Routes<br>
 Controller Actions<br>
 Default Values<br>
 
-## Sessions
+## [Sessions](/Manual/Sessions)
 Configuration<br>
 Storing Data<br>
 Retrieving Data<br>
@@ -76,74 +76,74 @@ Flash Data<br>
 Custom Drivers<br>
  <br>
 
-## Validation
+## [Validation](/Manual/Validation)
 Form Requests<br>
 Manually Creating Validators<br>
 Error Messages<br>
 Validation Rules<br>
 Custom Rules<br>
 
-## Logging
+## [Logging](/Manual/Logging)
 Configuration<br>
 Writing to Specific Channels<br>
 Creating Custom Channels<br>
 
-## Frontend
+## [Frontend](/Manual/Frontend)
 Blade Templating<br>
 Localization<br>
 Asset Compilation<br>
 
-## Security
+## [Security](/Manual/Security)
 Authentication<br>
 Authorization<br>
 Encryption / Hashing<br>
 CSRF Protection<br>
 XSS Protection<br>
 
-## Artisan Console
+## [Artisan Console](/Manual/Artisan Console)
 Generating Commands<br>
 Command I/O<br>
 Registering Commands<br>
 Executing Commands<br>
 
-## Websockets
+## [Websockets](/Manual/Websockets)
 Broadcasting Events<br>
 Receiving Events<br>
 Broadcasting Channels<br>
 Presence Channels<br>
 Client Events<br>
 
-## Caching
+## [Caching](/Manual/Caching)
 Drivers / Configuration<br>
 Storing Items<br>
 Retrieving Items<br>
 Cache Tags<br>
 Creating Custom Drivers<br>
 
-## Collections
+## [Collections](/Manual/Collections)
 Creating / Extending Collections<br>
 Collection Methods<br>
 Higher-order Messages<br>
 
-## Events
+## [Events](/Manual/Events)
 Registering Events / Listeners<br>
 Queued Listeners<br>
 Dispatching Events<br>
 Subscribing to Events<br>
 
-## File Storage
+## [File Storage](/Manual/File Storage)
 Configuration / Drivers<br>
 Storing / Retrieving Files<br>
 Custom Filesystems<br>
 
-## Helper Methods
+## [Helper Methods](/Manual/Helper Methods)
 Arrays / Objects<br>
 Paths<br>
 Strings<br>
 URLs<br>
 Misc<br>
 
-## Mail
+## [Mail](/Manual/Mail)
 Drivers / Configuration<br>
 Generating Mailables<br>
 Writing Mail<br>
@@ -151,7 +151,7 @@ Sending Mail<br>
 Markdown<br>
 Local Development<br>
 
-## Notifications
+## [Notifications](/Manual/Notifications)
 Creating Notifications<br>
 Sending Notifications<br>
 Mail Notifications<br>
@@ -162,7 +162,7 @@ SMS Notifications<br>
 Slack Notifications<br>
 Custom Channels<br>
 
-## Package Development
+## [Package Development](/Manual/Package Development)
 Discovery<br>
 Service Providers<br>
 Resources<br>
@@ -170,14 +170,14 @@ Commands<br>
 Assets<br>
 Publishing File Groups<br>
 
-## Queues
+## [Queues](/Manual/Queues)
 Drivers / Configurations<br>
 Creating / Dispatching Jobs<br>
 Running Queue Workers<br>
 Supervisor<br>
 Handling Failed Jobs<br>
 
-## Task Scheduling
+## [Task Scheduling](/Manual/Task Scheduling)
 Scheduling Artisan Commands<br>
 Scheduling Queue Jobs<br>
 Scheduling Shell Commands<br>
@@ -185,13 +185,13 @@ Time Zones<br>
 Preventing Task Overlaps<br>
 Maintenance Mode<br>
 
-## Database
+## [Database](/Manual/Database)
 Query Builder<br>
 Pagination<br>
 Migrations<br>
 Seeding<br>
 
-## Eloquent ORM
+## [Eloquent ORM](/Manual/Eloquent ORM)
 Conventions<br>
 Relationships<br>
 Eloquent Collections<br>
@@ -200,7 +200,7 @@ API Resources<br>
 Serialization<br>
 Scopes<br>
 
-## Testing
+## [Testing](/Manual/Testing)
 Creating / Running Tests<br>
 HTTP Tests<br>
 Session / Authentication<br>
